@@ -47,7 +47,7 @@
     "description": "Your reflection steps before you, mimicking your every move — except its grin is just a bit too wide. Mirrors stretch in every direction, some cracked, some fogged, some showing rooms that definitely aren't behind them.\n",
     "exits": {
       "west": "001-goblin-tea-party",
-      "north": "TODO-shattered-sanctum",
+      "north": "007-shattered-sanctum",
       "east": "004-succubus-den",
       "south": "003-mighty-dragon"
     },
@@ -138,7 +138,7 @@
     "description": "Shelves stretch into darkness, crammed with books whose titles actively insult you. \"Honest Politicians: A Complete Collection\" (all pages blank). \"The Ocean is Dry\" (just a picture of a desert). \"101% Accurate Riddles.\" A single leather-bound book glows faintly on a pedestal at the center. A stone alcove shaped like an open book is set into the north wall.\n",
     "exits": {
       "east": "000-entrance",
-      "north": "TODO-shattered-sanctum"
+      "north": "007-shattered-sanctum"
     },
     "items": [
       {
@@ -157,6 +157,49 @@
     "difficulty": 4,
     "easter_egg": "Check the Riddle Book to read the riddle. Take it, then place it in the alcove to unlock the north exit.\n",
     "author": "dhruvxbug"
+  },
+  "007-shattered-sanctum": {
+    "id": "007-shattered-sanctum",
+    "title": "The Shattered Sanctum of Unreasonable Demands",
+    "description": "This room doesn't make sense and it knows it. The ceiling is made of disappointed sighs. The walls are covered in motivational posters, but they're all facing backward. A massive golden statue of a tax accountant weeps glitter tears into a fountain that flows upward. Someone carved \"BEWARE THE VIBES\" into the floor, but the letters keep rearranging themselves to spell \"BEAVER THIEVES.\" A sentient filing cabinet in the corner is arguing with itself about whether Tuesdays exist.\n",
+    "ascii_art": "_______________\n| TAX ACCOUNTANT |\n|    >_____<    |\n|   {  o o  }   |\n|    (_____)    |\n|  ~~glitter~~  |\n|_______________|\n    ||   ||\n",
+    "exits": {
+      "south": "002-mirror-maze",
+      "east": "006-library-of-lies",
+      "up": "TODO-bureaucracy-dimension",
+      "down": "TODO-basement-of-regrettable-decisions"
+    },
+    "items": [
+      {
+        "name": "Form 1099-CHAOS",
+        "description": "A tax form that asks impossible questions like \"How many dreams did you depreciate this quarter?\" and \"List all parallel timeline income sources.\"\n",
+        "on_use": "The form screams and turns into a butterfly made of receipts.",
+        "consumable": true
+      },
+      {
+        "name": "Backwards Motivational Poster",
+        "description": "When you flip it around, it just says \"YOU'RE DOING YOUR WORST! KEEP IT DOWN!\"\n"
+      },
+      {
+        "name": "Glitter Tear Vial",
+        "description": "Tastes like broken promises and expired coupons. Restores 3 HP or removes 2. Who knows.\n",
+        "consumable": true
+      }
+    ],
+    "monster": {
+      "name": "The Sentient Filing Cabinet (Steve)",
+      "greeting": "\"TUESDAY ISN'T REAL!\" it shouts. \"YES IT IS!\" it shouts back at itself. \"PROVE IT!\" Then it notices you. \"Oh great, a witness. You tell us—does Tuesday exist or is it just Wednesday's rejected draft?\"\n",
+      "difficulty": 2
+    },
+    "puzzle": {
+      "locked_exit": "up",
+      "description": "A bureaucratic portal sealed by red tape. Literally. It's covered in actual red tape with forms stapled to it that say \"ACCESS DENIED: INSUFFICIENT VIBES.\"\n",
+      "question": "What day comes after Monday but before Wednesday?",
+      "answer": "Tuesday",
+      "success_msg": "Steve the Filing Cabinet gasps. \"SEE? I TOLD ME SO!\" The red tape evaporates in shame and the portal opens upward into what looks like an endless DMV line.\n"
+    },
+    "easter_egg": "Type \"pet Steve\" and the filing cabinet purrs like a cat, then immediately denies it happened and threatens to audit your childhood.\n",
+    "author": "rachitgoyal14"
   },
   "l1c1-01-stairwell": {
     "id": "l1c1-01-stairwell",
