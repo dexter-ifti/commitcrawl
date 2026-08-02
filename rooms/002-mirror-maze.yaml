@@ -6,7 +6,7 @@ description: >
   some fogged, some showing rooms that definitely aren't behind them.
 exits:
   west: 001-goblin-tea-party
-  north: TODO-shattered-sanctum
+  north: 007-shattered-sanctum
   east: 004-succubus-den
   south: 003-mighty-dragon
 items:

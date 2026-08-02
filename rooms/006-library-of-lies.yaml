@@ -10,7 +10,7 @@ description: >
 
 exits:
   east: 000-entrance
-  north: TODO-shattered-sanctum
+  north: 007-shattered-sanctum
 
 items:
   - name: Riddle Book

@@ -1,0 +1,66 @@
+id: 007-shattered-sanctum
+title: The Shattered Sanctum of Unreasonable Demands
+description: >
+  This room doesn't make sense and it knows it. The ceiling is made of
+  disappointed sighs. The walls are covered in motivational posters, but
+  they're all facing backward. A massive golden statue of a tax accountant
+  weeps glitter tears into a fountain that flows upward. Someone carved
+  "BEWARE THE VIBES" into the floor, but the letters keep rearranging
+  themselves to spell "BEAVER THIEVES." A sentient filing cabinet in the
+  corner is arguing with itself about whether Tuesdays exist.
+
+ascii_art: |
+      _______________
+      | TAX ACCOUNTANT |
+      |    >_____<    |
+      |   {  o o  }   |
+      |    (_____)    |
+      |  ~~glitter~~  |
+      |_______________|
+          ||   ||
+
+exits:
+  south: 002-mirror-maze
+  east: 006-library-of-lies
+  up: TODO-bureaucracy-dimension
+  down: TODO-basement-of-regrettable-decisions
+
+items:
+  - name: Form 1099-CHAOS
+    description: >
+      A tax form that asks impossible questions like "How many dreams did you
+      depreciate this quarter?" and "List all parallel timeline income sources."
+    on_use: The form screams and turns into a butterfly made of receipts.
+    consumable: true
+  - name: Backwards Motivational Poster
+    description: >
+      When you flip it around, it just says "YOU'RE DOING YOUR WORST! KEEP IT DOWN!"
+  - name: Glitter Tear Vial
+    description: >
+      Tastes like broken promises and expired coupons. Restores 3 HP or removes 2. Who knows.
+    consumable: true
+
+monster:
+  name: The Sentient Filing Cabinet (Steve)
+  greeting: >
+    "TUESDAY ISN'T REAL!" it shouts. "YES IT IS!" it shouts back at itself.
+    "PROVE IT!" Then it notices you. "Oh great, a witness. You tell us—does
+    Tuesday exist or is it just Wednesday's rejected draft?"
+  difficulty: 2
+
+puzzle:
+  locked_exit: up
+  description: >
+    A bureaucratic portal sealed by red tape. Literally. It's covered in actual
+    red tape with forms stapled to it that say "ACCESS DENIED: INSUFFICIENT VIBES."
+  question: "What day comes after Monday but before Wednesday?"
+  answer: Tuesday
+  success_msg: >
+    Steve the Filing Cabinet gasps. "SEE? I TOLD ME SO!" The red tape evaporates
+    in shame and the portal opens upward into what looks like an endless DMV line.
+
+easter_egg: >
+  Type "pet Steve" and the filing cabinet purrs like a cat, then immediately
+  denies it happened and threatens to audit your childhood.
+
+author: rachitgoyal14
