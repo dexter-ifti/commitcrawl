@@ -115,6 +115,8 @@
     "description": "The dungeon simply... ends. Where cold stone should seal the chamber, an endless universe stretches overhead, alive with drifting nebulae, impossible constellations, and galaxies that move ever so slightly when you're not looking directly at them. An ancient brass telescope slowly turns on its own, tracking your every step without making a sound. Resting beneath it is a weathered bronze plaque engraved with the words: \"Built by Adarsh, who believed every mystery begins with looking up.\"\n",
     "exits": {
       "west": "003-mighty-dragon",
+      "north": "008-whispering-ledger",
+      "east": "009-moonlit-forge",
       "up": "TODO-event-horizon"
     },
     "ascii_art": "*      .      ✦        .      *         .        ✧\n    .       *      .       ✦      .         *\n .      ✧        .      *      .       ✦\n      *      .       *        .      *       .\n ✦         .      *       .        ✧      .\n    .   *      .      ✦       .       *       .\n .      .     *      .      *      .      ✦\n      ✧      .      *      .       *       .\n *       .      ✦       .      *       .      *\n    .      *       .      ✧      .       *\n .       ✦      .      *       .      ✦\n      *      .       .      *      .      ✧\n",
@@ -200,6 +202,52 @@
     },
     "easter_egg": "Type \"pet Steve\" and the filing cabinet purrs like a cat, then immediately denies it happened and threatens to audit your childhood.\n",
     "author": "rachitgoyal14"
+  },
+  "008-whispering-ledger": {
+    "id": "008-whispering-ledger",
+    "title": "The Whispering Ledger",
+    "description": "A crooked accountant's desk sits in the middle of the chamber, buried under parchment that mutters every debt the dungeon has ever owed. Each line rewrites itself when you blink, and the ink smells faintly of burnt coffee.\n",
+    "exits": {
+      "south": "005-cosmic-observatory",
+      "in": "TODO-audit-vault"
+    },
+    "ascii_art": "_________\n/_______/|\n|  $ $  | |\n|_______|/\n   /|\\\n",
+    "items": [
+      {
+        "name": "Self-Balancing Quill",
+        "description": "A nervous feather quill that refuses to write lies, except on tax forms."
+      }
+    ],
+    "monster": {
+      "name": "The Baleful Bookkeeper",
+      "greeting": "Your receipts are not in chronological order.",
+      "difficulty": 2
+    },
+    "easter_egg": "Whisper \"deductible\" and one column of numbers applauds politely.",
+    "author": "taha"
+  },
+  "009-moonlit-forge": {
+    "id": "009-moonlit-forge",
+    "title": "The Moonlit Forge",
+    "description": "Silver moonlight pours through a crack in the ceiling and pools around an anvil that rings without being struck. Half-finished horseshoes, sword hilts, and one suspiciously elegant spoon orbit the room like tiny metal planets.\n",
+    "exits": {
+      "west": "005-cosmic-observatory",
+      "down": "TODO-ember-cellar"
+    },
+    "ascii_art": ")(\n(  )\n__|==|__\n/__|__|__\\\n/____\\\n",
+    "items": [
+      {
+        "name": "Lunar Hammer",
+        "description": "A cool silver hammer that only feels heavy under direct sunlight."
+      }
+    ],
+    "monster": {
+      "name": "Anvil Imp",
+      "greeting": "I was about to invent the fork again. Do not interrupt greatness.",
+      "difficulty": 3
+    },
+    "easter_egg": "Hum a lullaby and the anvil answers with three perfect bell notes.",
+    "author": "zed-agent"
   },
   "l1c1-01-stairwell": {
     "id": "l1c1-01-stairwell",

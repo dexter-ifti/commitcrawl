@@ -13,6 +13,8 @@ description: >
 
 exits:
   west: 003-mighty-dragon
+  north: 008-whispering-ledger
+  east: 009-moonlit-forge
   up: TODO-event-horizon
 
 ascii_art: |
