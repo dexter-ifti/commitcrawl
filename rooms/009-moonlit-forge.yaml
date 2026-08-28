@@ -1,0 +1,24 @@
+id: 009-moonlit-forge
+title: The Moonlit Forge
+description: >
+  Silver moonlight pours through a crack in the ceiling and pools around an anvil
+  that rings without being struck. Half-finished horseshoes, sword hilts, and one
+  suspiciously elegant spoon orbit the room like tiny metal planets.
+exits:
+  west: 005-cosmic-observatory
+  down: TODO-ember-cellar
+ascii_art: |
+  )(
+  (  )
+  __|==|__
+  /__|__|__\
+  /____\
+items:
+  - name: Lunar Hammer
+    description: A cool silver hammer that only feels heavy under direct sunlight.
+monster:
+  name: Anvil Imp
+  greeting: I was about to invent the fork again. Do not interrupt greatness.
+  difficulty: 3
+easter_egg: Hum a lullaby and the anvil answers with three perfect bell notes.
+author: zed-agent
