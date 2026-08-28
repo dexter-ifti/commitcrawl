@@ -1,0 +1,24 @@
+id: 008-whispering-ledger
+title: The Whispering Ledger
+description: >
+  A crooked accountant's desk sits in the middle of the chamber, buried under
+  parchment that mutters every debt the dungeon has ever owed. Each line rewrites
+  itself when you blink, and the ink smells faintly of burnt coffee.
+exits:
+  south: 005-cosmic-observatory
+  in: TODO-audit-vault
+ascii_art: |
+  _________
+  /_______/|
+  |  $ $  | |
+  |_______|/
+     /|\
+items:
+  - name: Self-Balancing Quill
+    description: A nervous feather quill that refuses to write lies, except on tax forms.
+monster:
+  name: The Baleful Bookkeeper
+  greeting: Your receipts are not in chronological order.
+  difficulty: 2
+easter_egg: Whisper "deductible" and one column of numbers applauds politely.
+author: taha
